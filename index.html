@@ -1,50 +1,47 @@
 <!doctype html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Таймер до 8 июня 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>Таймер до 8 июня 2025</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
+  <body>
+    <div class="container">
+      <h1>До 8 июня 2025 года осталось:</h1>
 
-<body>
-  <div class="container">
-    <h1>До 8 июня 2025 года осталось:</h1>
+      <div class="timer">
+        <div class="timer-block">
+          <span id="days">00</span>
+          <div class="label">дней</div>
+        </div>
+        <div class="timer-block">
+          <span id="hours">00</span>
+          <div class="label">часов</div>
+        </div>
+        <div class="timer-block">
+          <span id="minutes">00</span>
+          <div class="label">минут</div>
+        </div>
+        <div class="timer-block">
+          <span id="seconds">00</span>
+          <div class="label">секунд</div>
+        </div>
+      </div>
 
-    <div class="timer">
-      <div class="timer-block">
-        <span id="days">00</span>
-        <div class="label">дней</div>
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
       </div>
-      <div class="timer-block">
-        <span id="hours">00</span>
-        <div class="label">часов</div>
-      </div>
-      <div class="timer-block">
-        <span id="minutes">00</span>
-        <div class="label">минут</div>
-      </div>
-      <div class="timer-block">
-        <span id="seconds">00</span>
-        <div class="label">секунд</div>
+
+      <div class="target-date">
+        Целевая дата: <span id="target-date-display">8 июня 2025</span>
       </div>
     </div>
 
-    <div class="progress-container">
-      <div class="progress-bar" id="progress-bar"></div>
-    </div>
-
-    <div class="start-date">
-      дата покупки билетов:
-      <span id="start-date-display">22 апреля 2025</span>
-    </div>
-    <div class="target-date">
-      Целевая дата: <span id="target-date-display">8 июня 2025</span>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

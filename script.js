@@ -10,13 +10,6 @@ document.getElementById("target-date-display").textContent =
     day: "numeric",
   });
 
-document.getElementById("start-date-display").textContent =
-  startDate.toLocaleDateString("ru-RU", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
-
 // Элементы для анимации
 const daysElement = document.getElementById("days");
 const hoursElement = document.getElementById("hours");
