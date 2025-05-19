@@ -10,7 +10,7 @@ document.getElementById("target-date-display").textContent =
     day: "numeric",
   });
 
-document.getElementById("bilets-date-display").textContent =
+document.getElementById("start-date-display").textContent =
   startDate.toLocaleDateString("ru-RU", {
     year: "numeric",
     month: "long",
@@ -89,4 +89,3 @@ function updateTimer() {
 // Инициализация
 updateTimer();
 setInterval(updateTimer, 1000);
-
