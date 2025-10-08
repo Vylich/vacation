@@ -1,6 +1,6 @@
 // Установка целевой даты - 8 июня 2025 года
-const targetDate = new Date(2025, 8, 13, 00, 00, 0);
-const startDate = new Date(2025, 7, 18, 0, 0, 0); // Дата начала отсчёта (текущая дата)
+const targetDate = new Date(2025, 11, 16, 00, 00, 0);
+const startDate = new Date(2025, 9, 8, 0, 0, 0); // Дата начала отсчёта (текущая дата)
 
 // Обновляем отображение целевой даты
 document.getElementById("target-date-display").textContent =
